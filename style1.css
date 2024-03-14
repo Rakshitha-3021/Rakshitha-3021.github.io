@@ -1,0 +1,138 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #3399ff, #8304eb);
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: transparent !important;
+}
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff5733;
+}
+.btn-primary {
+    background-color: #ff007b;
+    border-color: #ff007b;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+#about h2 {
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+#about .btn-primary {
+    margin-top: 20px;
+}
+#education {
+    padding: 50px 0;
+    text-align: center;
+}
+#education h2 {
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#certifications {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+    text-align: center;
+}
+#certifications h2 {
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#skills {
+    padding: 50px 0;
+    text-align: center;
+}
+#skills h2 {
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#interests {
+    padding: 50px 0;
+    text-align: center;
+}
+#interests h2 {
+    color: #ff5733;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+#interests ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#projects {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+}
+#projects h2 {
+    color: #ffc107;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: .25rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    transition: box-shadow 0.3s;
+}
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+}
+.card-title {
+    color: #fff;
+    font-weight: bold;
+}
+.card-text {
+    color: #ccc;
+}
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+}
+.social-icons a:hover {
+    color: #ffc107;
+}
